@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: spring-test-app 
-          image: angelorod/spring-boot-test:latest # Image that will be used to containers in the cluster
+          image: angelorod/spring-boot-test:latest-amd64 # Image that will be used to containers in the cluster
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
           env:
