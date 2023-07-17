@@ -32,4 +32,4 @@ spec:
             - containerPort: 8080 # The port that the container is running on in the cluster
           env:
             - name: ET_COLLECTOR_URL
-              value: et-collector-url
+              value: <+infra.namespace>
