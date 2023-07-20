@@ -1,1 +1,1 @@
-name: <+cet.defaultToken>
+name: <+pipeline.cet.collectorUrl>
