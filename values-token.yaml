@@ -1,1 +1,1 @@
-name: <+pipeline.cet.collectorUrl>
+name: <+cet.collectorUrl>
