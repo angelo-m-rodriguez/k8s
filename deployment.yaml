@@ -32,4 +32,6 @@ spec:
             - containerPort: 8080 # The port that the container is running on in the cluster
           env:
             - name: ET_COLLECTOR_URL
-              value: {{.Values.name}}
+              value: {{.Values.url}}
+            - name: ET_DEFAULT_TOKEN
+              value: {{.Values.token}}

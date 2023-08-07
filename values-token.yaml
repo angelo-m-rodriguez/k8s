@@ -1,1 +1,2 @@
-name: <+cet.collectorUrl>
+url: <+cet.collectorUrl>
+token: <+cet.defaultAgentToken>
